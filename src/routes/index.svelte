@@ -15,7 +15,7 @@
 	* anda juga dapat mengubah DISCOVERY_DOCS dan SCOPES
 	* ubah SHEET_ID dengan id yang didapat dari URL google sheet
 	* */
-	const CLIENT_ID = '872541853679-3h3vje49smv2kb0jftmsa4rskiedj5s6.apps.googleusercontent.com';
+	const CLIENT_ID = '872541853679-ovq60n7jjglklf62e28nuv7eujj3ic53.apps.googleusercontent.com';
 	const API_KEY = 'AIzaSyDEJ7Ew97GG_NbcQD-3e7E49xI9UGhRCWc';
 	const DISCOVERY_DOCS = ["https://sheets.googleapis.com/$discovery/rest?version=v4"];
 	const SCOPES = "https://www.googleapis.com/auth/spreadsheets";
