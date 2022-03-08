@@ -1,3 +1,29 @@
+## DOKUMENTASI WEB SPEECH TO TEXT
+
+Dokumentasi ini ditulis untuk memudahkan konfigurasi **google API spreadsheet** karena jika akan menulis ke dokumen spreadsheet membutuhkan login otorisasi dari google
+
+## Konfigurasi google API
+Karena dalam web ini merupakan **API KEY** dan **CLIENT ID** pembuat program maka ini dapat diubah sesuai kebutuhan dengan melakukan setup di google console [Google Console](https://console.cloud.google.com/). Buatlah project baru dan pindah ke menu API lalu ke menu **API Library** cari **spreadsheet API** lalu enable, setelah itu buat **API KEY** [cara membuat API KEY](https://support.google.com/googleapi/answer/6158862?hl=en), setelah itu anda dapat membuat **Oauth Consent Screen** [cara membuat Oauth Consent Screen](https://developers.google.com/my-business/content/implement-oauth?hl=id)pada consent anda memilih internal jika akan di publish pilih eksternal perbedaanya terdapat hak akses, jika internal maka anda harus input email address pada kolom test user, dan jika eksternal semua orang dapat mendapatkan hak akses akan tetapi harus melakukan publish, setelah itu langkah terakhir membuat **Oauth2**
+
+## Ubah API KEY dan CLIENT ID
+Anda dapat mengubah api key dan client id yang terletak pada file `index.svelte` dan `auth.svelte` pada variabel dengan menyali API KEY dan CLIENT ID dari google console
+
+    const CLIENT_ID = 'xxx'
+    const API_KEY = 'xxx'
+
+## Ubah file spreadsheet
+Anda dapat mengubah file spreadsheet dengan cara buat baru file spreadsheet lalu pilih menu bagikan dan pilih bagikan secara publik maka anda akan mendapatkan link
+
+    https://docs.google.com/spreadsheets/d/1t3Cf914ZjReS_Ar7C8U3XI6qOXYtU46wLeXKCC1xR2M/edit#gid=0
+
+spreadsheet ID terdapat pada bagian
+
+> 1t3Cf914ZjReS_Ar7C8U3XI6qOXYtU46wLeXKCC1xR2M
+
+dan anda dapat mengantinya di variabel SHEET_ID pada file `src/index.svelte`
+
+
+
 # sapper-template
 
 The default template for setting up a [Sapper](https://github.com/sveltejs/sapper) project. Can use either Rollup or webpack as bundler.
