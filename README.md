@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3ae64be2-24ff-44f0-9935-320151888d02/deploy-status)](https://app.netlify.com/sites/voice-greeting/deploys)
+
 ## DOKUMENTASI WEB SPEECH TO TEXT
 
 Dokumentasi ini ditulis untuk memudahkan konfigurasi **google API spreadsheet** karena jika akan menulis ke dokumen spreadsheet membutuhkan login otorisasi dari google
