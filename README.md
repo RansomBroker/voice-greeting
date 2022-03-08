@@ -70,6 +70,16 @@ npm install # or yarn
 npm run dev
 ```
 
+### Menjalankan Project
+
+ketika anda sudah mendownload project maka, perlu instal depedensi dan melakukan run project;
+
+```bash
+cd my-app
+npm install # or yarn
+npm run dev
+```
+
 This will start the development server on [localhost:3000](http://localhost:3000). Open it and click around.
 
 You now have a fully functional Sapper project! To get started developing, consult [sapper.svelte.dev](https://sapper.svelte.dev).
