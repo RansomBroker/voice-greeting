@@ -2,11 +2,7 @@
     import {onMount} from "svelte";
 
     onMount( () => {
-        document.onreadystatechange = function () {
-            if (this.readyState === 'complete') {
-                handleClientLoad();
-            }
-        }
+        handleClientLoad();
     })
 
     // Client ID and API key from the Developer Console
