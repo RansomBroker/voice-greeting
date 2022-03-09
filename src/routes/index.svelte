@@ -3,11 +3,7 @@
 	import {onMount} from "svelte";
 
 	onMount( () => {
-		document.onreadystatechange = function () {
-			if (this.readyState === 'complete') {
-				handleClientLoad();
-			}
-		}
+		handleClientLoad();
 	})
 
 	/*
@@ -20,6 +16,7 @@
 	const DISCOVERY_DOCS = ["https://sheets.googleapis.com/$discovery/rest?version=v4"];
 	const SCOPES = "https://www.googleapis.com/auth/spreadsheets";
 	const SHEET_ID = "1t3Cf914ZjReS_Ar7C8U3XI6qOXYtU46wLeXKCC1xR2M";
+	const RANGE = "Sheet1!A:B";
 	let isClicked = false;
 	let isFinal = false;
 	let isAudioCancel = false;
@@ -119,7 +116,7 @@
 		};
 		gapi.client.sheets.spreadsheets.values.append({
 			spreadsheetId: SHEET_ID,
-			range: "Sheet1!A:B",
+			range: RANGE,
 			valueInputOption: "RAW",
 			resource: body
 		}).then((response) => {

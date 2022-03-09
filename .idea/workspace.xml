@@ -50,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/routes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../deploy/voice-greeting/voice-greeting-main" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -115,7 +115,9 @@
       <workItem from="1646728677553" duration="10759000" />
       <workItem from="1646742544486" duration="942000" />
       <workItem from="1646743707619" duration="1263000" />
-      <workItem from="1646746852366" duration="910000" />
+      <workItem from="1646746852366" duration="1234000" />
+      <workItem from="1646752178424" duration="51000" />
+      <workItem from="1646753291194" duration="146000" />
     </task>
     <servers />
   </component>
